@@ -9,7 +9,7 @@ import (
 	"github.com/sendgrid/sendgrid-go/helpers/mail"
 )
 func main() {
-	from := mail.NewEmail("Anand Awasthi", "anand.awasthi@gmail.com")
+	from := mail.NewEmail("Anand Awasthi", "anand.awasthi@jnu.ac.in")
 	subject := "Sending with SendGrid is Fun"
 	to := mail.NewEmail("Anand Awasthi", "anand.awasthi@gmail.com")
 	plainTextContent := "Build completed"
